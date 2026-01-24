@@ -1,0 +1,80 @@
+{
+    "introduction": {
+      "name": "Andrew Pang Yong Chen",
+      "summary": "Experienced Software Engineer in Finance and Blockchain domains. I build mobile apps that empower millions on their financial journeys, bringing ideas to life at blazing speeds."
+    },
+  
+    "experience": [
+      {
+        "company": "Crypto.com",
+        "role": "Senior Software Engineer",
+        "period": "June 2025 – Present",
+        "contributions": [
+          "Hired as a pioneering engineer in the React Native foundation team.",
+          "Spearheaded development of a cross-platform React Native design system.",
+          "Drove significant adoption in design system components by incorporating Generative AI into dev workflows."
+        ]
+      },
+      {
+        "company": "MoneyLion Inc.",
+        "role": "Software Engineer II",
+        "period": "August 2023 – May 2025",
+        "contributions": [
+          "Hired as a graduate engineer to replace 2 mid-level engineers. Promoted after 1 year.",
+          "Led and mentored a team of 2 engineers in the development of stocks, ETFs, and crypto products.",
+          "Overhauled UI/UX several Investing Products.",
+          "Indentified wastage and optimised front-end operations to reduce monthly infrastructure cost.",
+          "Brainstormed product ideas to increase user onboarding onto investing products."
+        ]
+      },
+      {
+        "company": "Setel Ventures",
+        "role": "Software Engineer Intern",
+        "period": "November 2021 – February 2022",
+        "contributions": [
+          "Collaborated with developers to launch a point-of-sales system deployed in 1600+ fuel stations in Malaysia.",
+          "Enhanced UI/UX for a station operator monitoring tool, reducing time and complexity to perform crucial tasks."
+        ]
+      },
+      {
+        "company": "Monash University PRIME Program",
+        "role": "Full Stack Engineer",
+        "period": "February 2021 – March 2023",
+        "contributions": [
+          "Lead team of 6 to build a pre-diabetes detection and intervention app in collaboration with a local pharmacy",
+          "Leveraged AI predictive analytics to identify 100+ pre-diabetic users and connect them with pharmacists",
+          "Gold Award in the 33rd International Invention, Innovation & Technology Exhibition (ITEX), 2022"
+        ]
+      }
+    ],
+
+    "publications": [
+      {
+        "title": "ASDF: A Differential Testing Framework for Automatic Speech Recognition Systems",
+        "venue": "ICST Dublin",
+        "year": 2023,
+        "url": "https://ieeexplore.ieee.org/document/XXXXX"
+
+      }
+    ],
+  
+    "contact": [
+      {
+        "label": "Resume",
+        "url": "https://docs.google.com/document/d/1Eu5bWgJOdhJCOfpuzTFSN4EdUCR_v0MaocbzoaswgaE/edit?usp=sharing"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:pyc_andrew@hotmail.com"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/andrew-pang-yc"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/SkyGlider"
+      }
+    ]
+  }
+  
