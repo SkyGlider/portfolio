@@ -1,0 +1,107 @@
+/* styles/globals.css */
+
+:root {
+  --win-bg: #c0c0c0;
+  --win-light: #ffffff;
+  --win-dark: #808080;
+  --win-darker: #404040;
+  --win-blue: #000080;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* XP vibes */
+  font-family: "Tahoma", "MS Sans Serif", Arial, sans-serif;
+}
+
+/* Window */
+.win-window {
+  background: var(--win-bg);
+  border: 2px solid;
+  border-color: var(--win-light) var(--win-darker) var(--win-darker)
+    var(--win-light);
+  box-shadow: 2px 2px 0 #000;
+  margin: 20px;
+  width: 1000px;
+  max-width: 95vw;
+  justify-self: center;
+}
+
+/* Title bar */
+.win-title {
+  background: var(--win-blue);
+  color: #fff;
+  padding: 6px 8px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Close button */
+.win-close {
+  background: var(--win-bg);
+  border: 2px solid;
+  border-color: var(--win-light) var(--win-darker) var(--win-darker)
+    var(--win-light);
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.win-close:active {
+  border-color: var(--win-darker) var(--win-light) var(--win-light)
+    var(--win-darker);
+}
+
+/* Content */
+.win-content {
+  padding: 16px; 
+}
+
+.win-button-row {
+  padding-top: 30px;
+  text-align: end;
+}
+
+.win-button {
+  background: var(--win-bg);
+  border: 2px solid;
+  border-color: var(--win-light) var(--win-darker)
+    var(--win-darker) var(--win-light);
+  padding: 4px 12px;
+  margin: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #000;
+  
+}
+
+.win-button:active {
+  border-color: var(--win-darker) var(--win-light)
+    var(--win-light) var(--win-darker);
+}
+
+/* BSOD */
+.bsod {
+  position: fixed;
+  inset: 0;
+  background: #0000aa;
+  color: #fff;
+  font-family: "Courier New", monospace;
+  padding: 48px;
+  z-index: 9999;
+}
