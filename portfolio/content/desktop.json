@@ -1,0 +1,121 @@
+{
+    "icons": [
+        {
+            "id": "myself",
+            "label": "My Self",
+            "icon": "/icons/my-computer.webp",
+            "type": "window",
+            "window": {
+                "title": "Andrew Pang",
+                "summary": "Welcome to my website! I am an experienced Software Engineer in the Finance domain. I build mobile apps that empower millions on their financial journeys, bringing ideas to life at blazing speeds. I specialise in:",
+                "bullets": [
+                    "Front-end and mobile engineering",
+                    "Fintech and blockchain products",
+                    "Front-end performance, UX, and scalability"
+                ]
+            }
+        },
+        {
+            "id": "crypto",
+            "label": "Crypto.com",
+            "icon": "/icons/crypto.webp",
+            "shortcut": true,
+            "type": "window",
+            "window": {
+                "title": "Crypto.com",
+                "summary": "Senior Software Engineer (June 2025 - Present)",
+                "bullets": [
+                    "Hired as a pioneering engineer in the React Native foundation team.",
+                    "Spearheaded development of a cross-platform React Native design system.",
+                    "Drove significant adoption in design system components by incorporating Generative AI into dev workflows."
+                ]
+            }
+        },
+        {
+            "id": "moneylion",
+            "label": "MoneyLion",
+            "icon": "/icons/moneylion.png",
+            "shortcut": true,
+            "type": "window",
+            "window": {
+                "title": "MoneyLion",
+                "summary": "Mid-level Software Engineer (August 2023 - May 2025)",
+                "bullets": [
+                    "Hired as a graduate engineer to replace 2 mid-level engineers. Promoted after 1 year.",
+                    "Led and mentored a team of 2 engineers in the development of stocks, ETFs, and crypto products.",
+                    "Overhauled UI/UX several Investing Products.",
+                    "Indentified wastage and optimised front-end operations to reduce monthly infrastructure cost.",
+                    "Brainstormed product ideas to increase user onboarding onto investing products."
+                ]
+            }
+        },
+        {
+            "id": "setel",
+            "label": "Setel",
+            "icon": "/icons/setel.webp",
+            "shortcut": true,
+            "type": "window",
+            "window": {
+                "title": "Setel",
+                "summary": "Software Engineer Intern (November 2021 - February 2022)",
+                "bullets": [
+                    "Collaborated with developers to launch a point-of-sales system deployed in 1600+ fuel stations in Malaysia.",
+                    "Enhanced UI/UX for a station operator monitoring tool, reducing time and complexity to perform crucial tasks."
+                ]
+            }
+        },
+        {
+            "id": "monash",
+            "label": "Monash",
+            "icon": "/icons/monash.webp",
+            "shortcut": true,
+            "type": "window",
+            "window": {
+                "title": "Monash University PRIME Program",
+                "summary": "Research Software Engineer (February 2021 – March 2023)",
+                "bullets": [
+                    "Lead team of 6 to build a pre-diabetes detection and intervention app in collaboration with a local pharmacy",
+                    "Leveraged AI predictive analytics to identify 100+ pre-diabetic users and connect them with pharmacists",
+                    "Gold Award in the 33rd International Invention, Innovation & Technology Exhibition (ITEX), 2022"
+                ]
+            }
+        },
+        {
+            "id": "resume",
+            "label": "Resume",
+            "icon": "/icons/word.png",
+            "type": "link",
+            "url": "https://docs.google.com/document/d/1Eu5bWgJOdhJCOfpuzTFSN4EdUCR_v0MaocbzoaswgaE/edit?usp=sharing"
+        },
+        {
+            "id": "github",
+            "label": "GitHub",
+            "icon": "/icons/github.png",
+            "shortcut": true,
+            "type": "link",
+            "url": "https://github.com/SkyGlider"
+        },
+        {
+            "id": "email",
+            "label": "Email",
+            "icon": "/icons/outlook.webp",
+            "type": "link",
+            "url": "mailto:pyc_andrew@hotmail.com"
+        },
+        {
+            "id": "linkedin",
+            "label": "LinkedIn",
+            "icon": "/icons/linkedin.png",
+            "shortcut": true,
+            "type": "link",
+            "url": "https://linkedin.com/in/andrew-pang-yc"
+        },
+        {
+            "id": "publication",
+            "label": "Publication - ASDF",
+            "icon": "/icons/pdf.png",
+            "type": "link",
+            "url": "https://conf.researchr.org/details/icst-2023/icst-2023-tool-demos/3/ASDF-A-Differential-Testing-Framework-for-Automatic-Speech-Recognition-Systems"
+        }
+    ]
+}
