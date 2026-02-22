@@ -1,7 +1,8 @@
 export type WindowContent = {
     title: string
-    summary: string
-    bullets: string[]
+    summary?: string
+    role?: string
+    bullets?: string[]
 }
 
 export type DesktopItem = {

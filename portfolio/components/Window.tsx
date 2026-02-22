@@ -19,12 +19,15 @@ export default function Window({ title, content, onClose, onFocus, style }: Prop
             </div>
 
             <div className="window-body">
-                <p>{content.summary}</p>
-                <ul>
+                {content.summary && <p>{content.summary}</p>}
+                {content.role
+                    ? <><strong>{"Role and Achievements: "}</strong><p>{content.role}</p></>
+                    : <strong>{"I speacialise in:"}</strong>}
+                {content.bullets && <ul>
                     {content.bullets.map((b, i) => (
                         <li key={i}>{b}</li>
                     ))}
-                </ul>
+                </ul>}
             </div>
         </div>
     )

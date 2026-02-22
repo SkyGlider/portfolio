@@ -7,7 +7,7 @@
             "type": "window",
             "window": {
                 "title": "Andrew Pang",
-                "summary": "Welcome to my website! I am an experienced Software Engineer in the Finance domain. I build mobile apps that empower millions on their financial journeys, bringing ideas to life at blazing speeds. I specialise in:",
+                "summary": "Welcome to my website! I am an experienced Software Engineer in the Finance domain. I build mobile apps that empower millions on their financial journeys, bringing ideas to life at blazing speeds.",
                 "bullets": [
                     "Front-end and mobile engineering",
                     "Fintech and blockchain products",
@@ -23,7 +23,8 @@
             "type": "window",
             "window": {
                 "title": "Crypto.com",
-                "summary": "Senior Software Engineer (June 2025 - Present)",
+                "role": "Senior Software Engineer (June 2025 - Present)",
+                "summary": "Crypto.com is a cryptocurrency exchange company that offers various financial services, including an app, exchange, and noncustodial DeFi wallet, NFT marketplace, and direct payment service in cryptocurrency. It consistently ranks amongst the 10 cryptocurrency exchanges globally",
                 "bullets": [
                     "Hired as a pioneering engineer in the React Native foundation team.",
                     "Spearheaded development of a cross-platform React Native design system.",
@@ -39,7 +40,8 @@
             "type": "window",
             "window": {
                 "title": "MoneyLion",
-                "summary": "Mid-level Software Engineer (August 2023 - May 2025)",
+                "role": "Mid-level Software Engineer (August 2023 - May 2025)",
+                "summary": "MoneyLion is an industry leader in fintech, powering the next generation of personalized financial products and content, with a top consumer finance super app, a premier embedded finance platform for enterprise businesses and a world-class media arm. It ranks amongst the top 10 financial apps in the Apple App Store and Google Play Store in the US.",
                 "bullets": [
                     "Hired as a graduate engineer to replace 2 mid-level engineers. Promoted after 1 year.",
                     "Led and mentored a team of 2 engineers in the development of stocks, ETFs, and crypto products.",
@@ -57,7 +59,8 @@
             "type": "window",
             "window": {
                 "title": "Setel",
-                "summary": "Software Engineer Intern (November 2021 - February 2022)",
+                "role": "Software Engineer Intern (November 2021 - February 2022)",
+                "summary": "Introduced in July 2018, Setel is first mobile app in Malaysia that is designed to ease motorists’ journey across fuelling, parking, EV charging, motor insurance, road tax, auto assistance, general purchases and more across an ecosystem of PETRONAS petrol stations, retail partners, and online merchants.",
                 "bullets": [
                     "Collaborated with developers to launch a point-of-sales system deployed in 1600+ fuel stations in Malaysia.",
                     "Enhanced UI/UX for a station operator monitoring tool, reducing time and complexity to perform crucial tasks."
@@ -72,7 +75,8 @@
             "type": "window",
             "window": {
                 "title": "Monash University PRIME Program",
-                "summary": "Research Software Engineer (February 2021 – March 2023)",
+                "role": "Research Software Engineer (February 2021 – March 2023)",
+                "summary": "Monash University PRIME Program is a research project that aims to deliver prediabetes healthcare service and education through a mobile application. It educates patients with prediabetes on their condition and ways to prevent diabetes and empowers them to self-monitor and self-manage their condition.",
                 "bullets": [
                     "Lead team of 6 to build a pre-diabetes detection and intervention app in collaboration with a local pharmacy",
                     "Leveraged AI predictive analytics to identify 100+ pre-diabetic users and connect them with pharmacists",
