@@ -70,8 +70,8 @@
                 "role": "Research Software Engineer (February 2022 - April 2023)",
                 "summary": "Full Stack Engineer leading the development of an AI-assisted healthcare intervention platform.",
                 "bullets": [
-                    "Led a team of six engineers building a pre-diabetes detection and intervention application.",
-                    "Developed predictive machine learning models identifying over 100 pre-diabetic users.",
+                    "Led a team of 6 building a pre-diabetes detection and intervention application.",
+                    "Developed predictive machine learning models identifying 100+ pre-diabetic users.",
                     "Enabled pharmacist-led intervention through data-driven patient insights.",
                     "Awarded Gold at the 33rd International Invention, Innovation & Technology Exhibition (ITEX) 2022."
                 ]
@@ -125,7 +125,7 @@
         },
         {
             "id": "publication",
-            "label": "Publication - ASDF",
+            "label": "Publication",
             "icon": "/icons/pdf.png",
             "type": "link",
             "url": "https://conf.researchr.org/details/icst-2023/icst-2023-tool-demos/3/ASDF-A-Differential-Testing-Framework-for-Automatic-Speech-Recognition-Systems"
