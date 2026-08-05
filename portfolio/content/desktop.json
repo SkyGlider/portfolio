@@ -7,11 +7,13 @@
             "type": "window",
             "window": {
                 "title": "Andrew Pang",
-                "summary": "Welcome to my website! I am an experienced Software Engineer in the Finance domain. I build mobile apps that empower millions on their financial journeys, bringing ideas to life at blazing speeds.",
+                "summary": "I'm a Senior Software Engineer passionate about building software that solves real-world problems. From fintech platforms serving millions of users to AI-powered developer tooling, I enjoy taking products from idea to production with strong focus on good user experience.",
                 "bullets": [
-                    "Front-end and mobile engineering",
-                    "Fintech and blockchain products",
-                    "Front-end performance, UX, and scalability"
+                    "React Native and cross-platform mobile application development",
+                    "Full-stack development with TypeScript, Node.js and AWS",
+                    "AI-assisted coding, agentic workflows and developer tooling",
+                    "Scalable design systems and frontend performance",
+                    "Technical leadership, mentoring and cross-functional collaboration"
                 ]
             }
         },
@@ -26,9 +28,13 @@
                 "role": "Senior Software Engineer (June 2025 - Present)",
                 "summary": "Crypto.com is a cryptocurrency exchange company that offers various financial services, including an app, exchange, and noncustodial DeFi wallet, NFT marketplace, and direct payment service in cryptocurrency. It consistently ranks amongst the 10 cryptocurrency exchanges globally",
                 "bullets": [
-                    "Hired as a pioneering engineer in the React Native foundation team.",
-                    "Spearheaded development of a cross-platform React Native design system.",
-                    "Drove significant adoption in design system components by incorporating Generative AI into dev workflows."
+                    "Selected as an early member of the React Native foundation team.",
+                    "Led development of the design system powering the app-wide UI/UX overhaul.",
+                    "Leveraged multi-agent AI workflows and spec-driven engineering to rapidly deliver production-ready components.",
+                    "Developed all of the end-to-end Maestro test suite to prevent UI regressions.",
+                    "Built AI agent skills and design system test harnesses, driving rapid company-wide adoption of design system components.",
+                    "Integrated Claude Code with Figma MCP servers, enabling designers to code.",
+                    "Collaborated closely with stakeholders to own components from specs to prod."
                 ]
             }
         },
@@ -43,11 +49,31 @@
                 "role": "Mid-level Software Engineer (August 2023 - May 2025)",
                 "summary": "MoneyLion is an industry leader in fintech, powering the next generation of personalized financial products and content, with a top consumer finance super app, a premier embedded finance platform for enterprise businesses and a world-class media arm. It ranks amongst the top 10 financial apps in the Apple App Store and Google Play Store in the US.",
                 "bullets": [
-                    "Hired as a graduate engineer to replace 2 mid-level engineers. Promoted after 1 year.",
-                    "Led and mentored a team of 2 engineers in the development of stocks, ETFs, and crypto products.",
-                    "Overhauled UI/UX several Investing Products.",
-                    "Indentified wastage and optimised front-end operations to reduce monthly infrastructure cost.",
-                    "Brainstormed product ideas to increase user onboarding onto investing products."
+                    "Joined as a graduate engineer replacing two mid-level engineers",
+                    "Promoted to mid-level engineer after one year based on delivery impact.",
+                    "Led and mentored junior engineers developing investing products.",
+                    "Launched a financial membership that instantly drove massive growth in subscriptions and monthly recurring revenue.",
+                    "Leveraged AI-assisted workflows to redesign investing experiences.",
+                    "Indentified wastage and optimised code to reduce monthly infrastructure cost",
+                    "Brainstormed product ideas that increased onboarding onto investing products."
+                ]
+            }
+        },
+        {
+            "id": "monash",
+            "label": "PRIME",
+            "icon": "/icons/monash.webp",
+            "shortcut": true,
+            "type": "window",
+            "window": {
+                "title": "Monash University PRIME Program",
+                "role": "Research Software Engineer (February 2022 - April 2023)",
+                "summary": "Full Stack Engineer leading the development of an AI-assisted healthcare intervention platform.",
+                "bullets": [
+                    "Led a team of six engineers building a pre-diabetes detection and intervention application.",
+                    "Developed predictive machine learning models identifying over 100 pre-diabetic users.",
+                    "Enabled pharmacist-led intervention through data-driven patient insights.",
+                    "Awarded Gold at the 33rd International Invention, Innovation & Technology Exhibition (ITEX) 2022."
                 ]
             }
         },
@@ -64,23 +90,6 @@
                 "bullets": [
                     "Collaborated with developers to launch a point-of-sales system deployed in 1600+ fuel stations in Malaysia.",
                     "Enhanced UI/UX for a station operator monitoring tool, reducing time and complexity to perform crucial tasks."
-                ]
-            }
-        },
-        {
-            "id": "monash",
-            "label": "Monash",
-            "icon": "/icons/monash.webp",
-            "shortcut": true,
-            "type": "window",
-            "window": {
-                "title": "Monash University PRIME Program",
-                "role": "Research Software Engineer (February 2021 – March 2023)",
-                "summary": "Monash University PRIME Program is a research project that aims to deliver prediabetes healthcare service and education through a mobile application. It educates patients with prediabetes on their condition and ways to prevent diabetes and empowers them to self-monitor and self-manage their condition.",
-                "bullets": [
-                    "Lead team of 6 to build a pre-diabetes detection and intervention app in collaboration with a local pharmacy",
-                    "Leveraged AI predictive analytics to identify 100+ pre-diabetic users and connect them with pharmacists",
-                    "Gold Award in the 33rd International Invention, Innovation & Technology Exhibition (ITEX), 2022"
                 ]
             }
         },
