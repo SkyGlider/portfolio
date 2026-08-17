@@ -62,7 +62,7 @@
         {
             "id": "monash",
             "label": "PRIME",
-            "icon": "/icons/monash.webp",
+            "icon": "/icons/monash.jpeg",
             "shortcut": true,
             "type": "window",
             "window": {
