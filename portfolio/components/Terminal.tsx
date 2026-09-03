@@ -48,8 +48,8 @@ export default function Terminal({
 
     return (
         <div className="terminal-overlay">
-            <div className="terminal-window">
-                <div className="terminal-title-bar">
+            <div className="window">
+                <div className="title-bar">
                     C:\WINDOWS\system32\cmd.exe
                 </div>
 

@@ -70,17 +70,6 @@ body {
   box-shadow: 2px 2px 0 #000;  
 }
 
-@media (max-width: 768px) {
-  .window, .terminal-window {
-    left: 50% !important;
-    top: 56px !important;
-    transform: translateX(-50%);
-    width: calc(100vw - 32px);
-    max-width: 500px;
-  }
-
-}
-
 .title-bar {
   background: var(--win-blue);
   color: white;
@@ -150,24 +139,11 @@ body {
   left: 160px;
   width: 600px;
   min-height: 400px;
-
   background: #000;
   border: 2px solid;
-  border-color: var(--win-light) var(--win-darker) var(--win-darker);
-
-  box-shadow:
-    2px 2px 0 #000;
-}
-
-.terminal-title-bar {
-  background: #000080;
-  color: white;
-
-  padding: 5px 8px;
-
-  font-family: Tahoma, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
+  border-color: var(--win-light) var(--win-darker) var(--win-darker) 
+    var(--win-light);
+  box-shadow: 2px 2px 0 #000;
 }
 
 .terminal-body {
@@ -195,6 +171,16 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .window, .terminal-window {
+    left: 50% !important;
+    top: 56px !important;
+    transform: translateX(-50%);
+    width: calc(100vw - 32px);
+    max-width: 500px;
+  }
+
+}
 
 .bsod {
   position: fixed;

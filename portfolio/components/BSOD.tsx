@@ -42,7 +42,7 @@ export default function BSOD() {
                 </div>
 
                 <p>
-                    A party is starting in {seconds} second{seconds !== 1 ? "s" : ""}...
+                    A party is starting in {seconds} second(s)...
                 </p>
 
                 <p className="bsod-error">
