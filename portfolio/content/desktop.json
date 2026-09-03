@@ -145,12 +145,11 @@
                 "Deleting C:\\Windows\\System32\\internet.exe...",
                 "Deleting C:\\Windows\\System32\\portfolio.dll...",
                 "Deleting C:\\Windows\\System32\\resume_final_FINAL.doc...",
+                "Deleting C:\\Windows\\System32\\...",
                 "Removing critical system dependencies...",
-                "System integrity: 0%",
                 "",
                 "CRITICAL SYSTEM ERROR",
-                "System files could not be recovered.",
-                "Initiating emergency restart..."
+                "System files could not be recovered."
             ]
         }
     ]

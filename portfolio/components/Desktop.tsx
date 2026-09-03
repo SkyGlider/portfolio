@@ -34,11 +34,17 @@ export default function Desktop() {
 
         setTimeout(() => {
             setIsFlickering(false)
+            const audio = new Audio("/bsod.m4a")
+
+            audio.play().catch(error => {
+                console.error("Could not play BSOD audio:", error)
+            })
+
             setShowBSOD(true)
 
             setTimeout(() => {
                 setShowBSOD(false)
-            }, 5000)
+            }, 20000)
         }, 2000)
     }
 

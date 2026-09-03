@@ -149,25 +149,14 @@ body {
   top: 80px;
   left: 160px;
   width: 600px;
-  min-height: 250px;
-  background: #ece9d8;
+  min-height: 400px;
+
+  background: #000;
   border: 2px solid;
-  background: #000;
-  border-color: var(--win-light) var(--win-darker) var(--win-darker)
-    var(--win-light);
-  box-shadow: 2px 2px 0 #000;  
-}
-
-.terminal-window {
-  width: min(700px, calc(100vw - 32px));
-  height: min(500px, calc(100vh - 120px));
-
-  background: #000;
-  border: 2px solid #c0c0c0;
+  border-color: var(--win-light) var(--win-darker) var(--win-darker);
 
   box-shadow:
-    4px 4px 0 #000,
-    -1px -1px 0 #fff;
+    2px 2px 0 #000;
 }
 
 .terminal-title-bar {
@@ -251,7 +240,7 @@ body {
 
   background: white;
 
-  animation: bsod-loading 5s linear forwards;
+  animation: bsod-loading 7s linear forwards;
 }
 
 .bsod-error {
@@ -319,3 +308,26 @@ body {
     transform: translateY(-4px);
   }
 }
+
+.party-mode {
+  animation: party-flash 0.3s steps(1, end) infinite;
+  }
+  
+  @keyframes party-flash {
+  0% {
+  background-color: red;
+  }
+  
+  33% {
+      background-color: blue;
+  }
+  
+  66% {
+      background-color: lime;
+  }
+  
+  100% {
+      background-color: red;
+  }  
+}
+  

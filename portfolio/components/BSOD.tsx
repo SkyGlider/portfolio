@@ -3,13 +3,15 @@
 import { useEffect, useState } from "react"
 
 export default function BSOD() {
-    const [seconds, setSeconds] = useState(5)
+    const [seconds, setSeconds] = useState(7)
+    const [partyMode, setPartyMode] = useState(false)
 
     useEffect(() => {
         const interval = setInterval(() => {
             setSeconds(previous => {
                 if (previous <= 1) {
                     clearInterval(interval)
+                    setPartyMode(true)
                     return 0
                 }
 
@@ -17,11 +19,13 @@ export default function BSOD() {
             })
         }, 1000)
 
-        return () => clearInterval(interval)
+        return () => {
+            clearInterval(interval)
+        }
     }, [])
 
     return (
-        <div className="bsod">
+        <div className={`bsod ${partyMode ? "party-mode" : ""}`}>
             <div className="bsod-content">
                 <h1>:(</h1>
 
@@ -38,11 +42,11 @@ export default function BSOD() {
                 </div>
 
                 <p>
-                    Restarting in {seconds} second{seconds !== 1 ? "s" : ""}...
+                    A party is starting in {seconds} second{seconds !== 1 ? "s" : ""}...
                 </p>
 
                 <p className="bsod-error">
-                    STOP CODE: PORTFOLIO_SYSTEM_FAILURE
+                    STOP CODE: 0xG0T_YA_ASS
                 </p>
             </div>
         </div>
