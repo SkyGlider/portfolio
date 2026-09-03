@@ -101,14 +101,6 @@
             "url": "https://docs.google.com/document/d/1Eu5bWgJOdhJCOfpuzTFSN4EdUCR_v0MaocbzoaswgaE/edit?usp=sharing"
         },
         {
-            "id": "github",
-            "label": "GitHub",
-            "icon": "/icons/github.png",
-            "shortcut": true,
-            "type": "link",
-            "url": "https://github.com/SkyGlider"
-        },
-        {
             "id": "email",
             "label": "Email",
             "icon": "/icons/outlook.webp",
@@ -122,6 +114,14 @@
             "shortcut": true,
             "type": "link",
             "url": "https://linkedin.com/in/andrew-pang-yc"
+        },
+        {
+            "id": "github",
+            "label": "GitHub",
+            "icon": "/icons/github.png",
+            "shortcut": true,
+            "type": "link",
+            "url": "https://github.com/SkyGlider"
         },
         {
             "id": "publication",
