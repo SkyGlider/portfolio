@@ -10,7 +10,8 @@ export type DesktopItem = {
     label: string
     icon: string
     shortcut?: boolean
-    type: "window" | "link"
+    type: "window" | "link" | "bug"
     url?: string
     window?: WindowContent
+    bullets?: string[]
 }

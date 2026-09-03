@@ -129,6 +129,29 @@
             "icon": "/icons/pdf.png",
             "type": "link",
             "url": "https://conf.researchr.org/details/icst-2023/icst-2023-tool-demos/3/ASDF-A-Differential-Testing-Framework-for-Automatic-Speech-Recognition-Systems"
+        },
+        {
+            "id": "definitely-not-a-virus",
+            "label": "Minecraft.exe",
+            "icon": "/icons/bug.png",
+            "shortcut": true,
+            "type": "bug",
+            "bullets": [
+                "Deleting C:\\Windows\\System32\\kernel32.dll...",
+                "Deleting C:\\Windows\\System32\\ntdll.dll...",
+                "Deleting C:\\Windows\\System32\\winload.exe...",
+                "Deleting C:\\Windows\\System32\\explorer.exe...",
+                "Deleting C:\\Windows\\System32\\definitely_needed.sys...",
+                "Deleting C:\\Windows\\System32\\internet.exe...",
+                "Deleting C:\\Windows\\System32\\portfolio.dll...",
+                "Deleting C:\\Windows\\System32\\resume_final_FINAL.doc...",
+                "Removing critical system dependencies...",
+                "System integrity: 0%",
+                "",
+                "CRITICAL SYSTEM ERROR",
+                "System files could not be recovered.",
+                "Initiating emergency restart..."
+            ]
         }
     ]
 }

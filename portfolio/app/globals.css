@@ -71,13 +71,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .window {
+  .window, .terminal-window {
     left: 50% !important;
     top: 56px !important;
     transform: translateX(-50%);
     width: calc(100vw - 32px);
     max-width: 500px;
   }
+
 }
 
 .title-bar {
@@ -125,4 +126,196 @@ body {
 
 .links-column {
   left: 100px;
+}
+
+.bugs-column {
+  left: 200px;
+}
+
+.terminal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  pointer-events: none;
+}
+
+.terminal-window {
+  position: absolute;
+  top: 80px;
+  left: 160px;
+  width: 600px;
+  min-height: 250px;
+  background: #ece9d8;
+  border: 2px solid;
+  background: #000;
+  border-color: var(--win-light) var(--win-darker) var(--win-darker)
+    var(--win-light);
+  box-shadow: 2px 2px 0 #000;  
+}
+
+.terminal-window {
+  width: min(700px, calc(100vw - 32px));
+  height: min(500px, calc(100vh - 120px));
+
+  background: #000;
+  border: 2px solid #c0c0c0;
+
+  box-shadow:
+    4px 4px 0 #000,
+    -1px -1px 0 #fff;
+}
+
+.terminal-title-bar {
+  background: #000080;
+  color: white;
+
+  padding: 5px 8px;
+
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.terminal-body {
+  height: calc(100% - 32px);
+
+  overflow-y: auto;
+
+  padding: 10px;
+
+  background: #000;
+  color: #e0e0e0;
+
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.terminal-cursor {
+  animation: cursor-blink 0.8s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.bsod {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  background: #0000aa;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.bsod-content {
+  width: min(700px, calc(100vw - 48px));
+}
+
+.bsod-content h1 {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.bsod-content p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.bsod-progress {
+  width: 100%;
+  height: 12px;
+
+  margin: 24px 0;
+
+  border: 1px solid white;
+}
+
+.bsod-progress-bar {
+  height: 100%;
+  width: 0;
+
+  background: white;
+
+  animation: bsod-loading 5s linear forwards;
+}
+
+.bsod-error {
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+@keyframes bsod-loading {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.screen-flicker::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 3px,
+      rgba(255, 255, 255, 0.3) 5px,
+      transparent 5px
+    );
+
+  animation: screen-glitch 1.5s steps(1, end);
+
+  z-index: 9998;
+}
+
+@keyframes screen-glitch {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+    transform: translateY(-8px);
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 0.7;
+    transform: translateY(12px);
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
 }
